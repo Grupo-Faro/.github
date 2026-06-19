@@ -1,1 +1,2 @@
-Perfil de GitHub de Grupo Faro
+# .github
+Repositorio de documentación principal de la organización.
