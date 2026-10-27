@@ -1,6 +1,6 @@
 # .github de Grupo Faro
 
-Repositorio de documentación principal de [Grupo Faro](https://elfaro.xyz). Reúne la información de entrada de este repositorio y el archivo del perfil público de la organización en [GitHub](https://github.com/Grupo-Faro).
+Repositorio de documentación comunitaria y perfil público de [Grupo Faro](https://grupofaro.es). Reúne las pautas generales de colaboración, accesibilidad, seguridad y soporte de los proyectos de la organización en [GitHub](https://github.com/Grupo-Faro).
 
 Está dirigido a quienes consultan la organización y a las personas que revisan o actualizan sus documentos. Su contenido se mantiene como archivos de texto versionados; es un repositorio documental, sin aplicación ejecutable ni servicios que desplegar.
 
@@ -8,6 +8,7 @@ Está dirigido a quienes consultan la organización y a las personas que revisan
 
 - Documentación de entrada sobre el propósito y la estructura del repositorio.
 - Perfil público de organización definido en `profile/README.md`.
+- Pautas comunitarias predeterminadas para los proyectos que no tengan documentos propios del mismo tipo.
 - Contenidos versionados, consultables y editables como archivos [Markdown](https://commonmark.org/).
 
 ## Estructura
@@ -16,9 +17,18 @@ Está dirigido a quienes consultan la organización y a las personas que revisan
 | --- | --- |
 | `README.md` | Guía para consultar y mantener este repositorio. |
 | [`profile/README.md`](profile/README.md) | Contenido que se muestra en el perfil público de la organización. |
+| [`ACCESSIBILITY.md`](ACCESSIBILITY.md) | Prioridades de accesibilidad y comunicación de barreras. |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Normas de convivencia y canales para comunicar incidentes. |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Orientaciones para informar de problemas y proponer cambios. |
+| [`SECURITY.md`](SECURITY.md) | Comunicación privada y gestión de vulnerabilidades. |
+| [`SUPPORT.md`](SUPPORT.md) | Canales y contexto necesario para solicitar ayuda. |
 | [`LICENSE.md`](LICENSE.md) | Texto íntegro de la licencia del repositorio. |
 
 El README de la raíz y el del perfil tienen funciones distintas. Modificar este documento no modifica el perfil de la organización. El funcionamiento del perfil se describe en la [documentación oficial de GitHub](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile).
+
+Los documentos comunitarios de este repositorio público pueden utilizarse como valores predeterminados cuando un proyecto no tiene los suyos. No se copian a los clones ni reemplazan instrucciones particulares. La licencia se declara en cada proyecto. Consulta [el funcionamiento de los documentos predeterminados](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+
+El perfil destinado a miembros se mantiene por separado en un repositorio privado. Este repositorio público contiene únicamente material apto para su consulta pública.
 
 ## Stack tecnológico
 
